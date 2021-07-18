@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700;900&display=swap');
+body{
+    display: block;
+    overflow-x: hidden;
+}
+nav{
+    background-color: white;
+}
+.navbar-brand img {
+    max-width: 50px;
+}
+.navbar-brand{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #444444;
+}
+nav ul li a {
+    color: #a9a9a9;
+    font-size: 22px;
+    margin: auto 10px;
+}
+a.nav-link.active:hover {
+    color: #235477;
+}
+
+button.navbar-toggler {
+    border: solid #235477;
+    border-radius: 10px;
+   
+    background-image: url(../img/icon.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
+
+
+/* star landing */
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #235477;
+    text-align: left;
+    margin-bottom: 20px;
+}
+section p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 13px;
+    max-width: 167px;
+}
+#hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col{
+    justify-content: flex-end;
+    margin-top: 60px;
+
+}
+#hero img {
+    max-width: 130% !important;
+}
+@media (max-width: 600px)/* phone */  {
+    #hero .col {
+        margin-top: 50px;
+    }
+}
+/*end landing*/
+/*star fueaatur*/
+.feat {
+    padding: 20px;
+    text-align: center;
+}
+.feat i{
+    color: #235477;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.feat h3 {
+    font-weight: 700;
+    font-size: 21px;
+}
+.feat p{
+    line-height: 1.9;
+    color: #777;
+    font-size: 17px;
+}
+/*ebd faueatur*/
+/* star about */ 
+
+h2.special-heading {
+    font-size: 46px;
+    color: #212567;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 54px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+section#about {
+    background-color: #f4f5ff;
+    
+}
+.img-fluid{
+    border-radius: 29px;
+}
+
+    .row.special-raw {
+        margin: auto;
+    }
+
+.special-p{
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 50px;
+    MARGIN-TOP: 40px;
+    
+}
+
+.special-p2{
+    line-height: 1.5;
+    color: #777;
+}
+@media (max-width: 1125px) /*large ecran */ {
+    .special-p{
+       
+        MARGIN-TOP: 0px;
+        
+    }
+}
+@media (max-width: 991px) /*ipad*/{
+    .img-fluid{
+    
+        margin-top: 20px;
+    }
+}
+@media (max-width: 767px) /*for mbile */  {
+    .special-img{
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .special-p{
+        text-align: center;
+        
+    }
+    
+    .special-p2{
+  text-align: center;
+    }
+    
+h2.special-heading{
+    margin-left: 0;
+}
+
+}
+
+
+/*end about*/
+
+
+/*star services*/
+.special-heading2{
+    font-size: 46px;
+    color: #212567;
+    text-align: left;
+    margin-bottom: 54px;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+}
+.special-head{
+    color: #2256a5;
+    text-transform: capitalize;
+    font-size: 30px;
+    
+
+}
+.kol-p{
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #515165;
+}
+.img-archi{
+    max-width: 100%;
+}
+@media (max-width: 767px) /*for mbile */  { 
+    .special-heading2{
+        text-align: center;
+    }
+    .special-head{
+        text-align: center;
+    }
+    .kol-p{
+        text-align: center;
+    }
+}
+
+
+
+/*end services*/
+
+/*Star portfolio*/
+.portfolio{
+    background-color: #f4f5ff;
+}
+.special-heading3{
+    font-size: 46px;
+    color: #212567;
+    text-align: left;
+    margin-bottom: 54px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+.card-a{
+    margin-bottom: 30px;
+    
+}
+.special-raw2{
+    margin-left: 60px;
+}
+.card-title
+{
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.card-text{
+    color: #777;
+    line-height: 1.6;
+}
+@media (max-width: 1125px) {
+    .special-heading3{
+        margin-left: 0;
+    }
+    .special-raw2 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px){
+    .special-heading3{
+        text-align: center;
+        margin-left: 16px;
+    }
+ 
+    .col-lg-4.col-md-6.card-a {
+        text-align: center;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+}
+/*end portfolio*/
+.row-contact{
+    margin-top: 50px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin-bottom: 50px;
+    
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    background: #0d6efd;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+    color: white;
+    font-weight: bold;
+}
+.contact-info h4{
+   
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.col-md-9{
+   
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.contact-form button {
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 25%;
+    background-color: #0d6efd;
+    border-radius: 19px;
+}
+input#fname{
+
+
+margin-top: 8px;
+margin-bottom: 10px;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+@media (max-width: 991px) /*ipad*/{
+    .contact-form label {
+        width: 88px;
+    }
+}
+/*start footer */ 
+.footer
+{
+    margin-top: 546px;
+    padding: 18px 10px;
+    background-color: #172e50;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+footer span{
+    color: rgb(13 110 253);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+/*end footer */ 
